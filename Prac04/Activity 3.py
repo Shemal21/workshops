@@ -7,3 +7,4 @@ while num >=0:
     if num >=0:
         print(str(num), file= out_file)
 out_file.close()
+
