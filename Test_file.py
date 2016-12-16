@@ -27,7 +27,7 @@ print(lines)
 temp_file.close()
 
 print('===')
-my_list = ['first line\n', 'second line\n', 'third line\n', 'fourth line\n', 'SHEMAL IS AWESOME \\m/\n']
+my_list = ['first line\n', 'second line\n', 'third line\n', 'fourth line\n', 'SHEMAL IS AWESOME\m/\n']
 out_file = open("out.txt", "w")
 out_file.writelines(my_list)
 out_file.close()
